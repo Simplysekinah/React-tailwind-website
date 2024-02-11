@@ -10,7 +10,7 @@ const Newsletter = () => {
         </div>
         <div className='ml-4 '>
           <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
-            <input className='py-2 rounded-md w-full text-black flex' type="email" placeholder='Enter Email' />
+            <input className='py-2 rounded-md w-full text-black flex px-2 outline-none' type="email" placeholder='Enter Email' />
             <button className='text-black bg-[#00df9a] rounded-md font-medium w-[200px] ml-4 my-6 py-2'>Notify me</button>
           </div>
           <p className='text-white py-2'>We care about the protection of your data. Read our <span className='text-[#00df9a]'>Privacy Policy</span></p>
